@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{114219f0-bd9f-415e-9b33-3e6a8e5b6c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{8f05a2c1-b6ae-405d-bbcc-518cf1a01255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{999ef9f4-e17a-468d-b565-91292f17bd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject">
+      <UniqueIdentifier>{194f7071-b24c-4d49-be78-f3c021a9b908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{1e04b79a-1814-49ed-91dc-3a4e970c2ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Standard">
+      <UniqueIdentifier>{f983ce4f-8808-4875-ab4f-27d6fdf0eec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Standard\Container">
+      <UniqueIdentifier>{85510903-462c-4519-88b1-ccf4489d0d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Standard\GLSL">
+      <UniqueIdentifier>{4c96c8fd-22f8-4ea3-bcea-3a920e2ff420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Standard\Regular">
+      <UniqueIdentifier>{52e1bb0e-3918-451a-9797-cc6bf6d9babd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Standard\Regular\Textures">
+      <UniqueIdentifier>{14810c65-7c4d-4f46-87ca-9ff1a4f5f3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Standard\Regular\Buffer">
+      <UniqueIdentifier>{2f23e69a-d9e1-409d-9299-de4d104ad36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Non-standard">
+      <UniqueIdentifier>{75e6c83e-8d6d-4992-a94e-d150afadbabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Non-standard\ProgramAttribute">
+      <UniqueIdentifier>{1f270666-260d-4e35-ab1f-7fbce0ab9658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLObject\Non-standard\ProgramAttribute\Matrix">
+      <UniqueIdentifier>{daef2ff6-e40a-4f20-b315-b0e88d8f0641}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Enum.hpp">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Unique.hpp">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Attribute.hpp">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Initializer.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLContainer.hpp">
+      <Filter>Header Files\GLObject\Standard\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Group.hpp">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World.hpp">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Texture.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Texture1D.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Texture2D.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Buffer.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VAO.hpp">
+      <Filter>Header Files\GLObject\Standard\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Object.hpp">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FBO.hpp">
+      <Filter>Header Files\GLObject\Standard\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLSL.hpp">
+      <Filter>Header Files\GLObject\Standard\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program.hpp">
+      <Filter>Header Files\GLObject\Standard\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shader.hpp">
+      <Filter>Header Files\GLObject\Standard\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gloop.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Traits.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Prefab.hpp">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utility.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Buffer2D.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\IBO.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VBO.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLRegular.hpp">
+      <Filter>Header Files\GLObject\Standard\Regular</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared.hpp">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLObject.hpp">
+      <Filter>Header Files\GLObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Make.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLStandardObject.hpp">
+      <Filter>Header Files\GLObject\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Matrix.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ModelMatrix.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProjMatrix.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ViewMatrix.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLExtraObject.hpp">
+      <Filter>Header Files\GLObject\Non-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\IDObject.hpp">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Color4.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Color3.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProgramAttribute.hpp">
+      <Filter>Header Files\GLObject\Non-standard\ProgramAttribute</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

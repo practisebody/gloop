@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="ModelMatrix">
+    <Position X="28.25" Y="12" Width="2.5" />
+    <Members>
+      <Field Name="m_stack" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAAAgAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\ModelMatrix.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix">
+    <Position X="28.25" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Matrix.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewMatrix">
+    <Position X="31.25" Y="12" Width="2.5" />
+    <Members>
+      <Field Name="m_current" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAkAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\ViewMatrix.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attribute">
+    <Position X="22.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Attribute.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unique">
+    <Position X="8.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Unique.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Initializer">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="Init" Hidden="true" />
+      <Method Name="InitAll" Hidden="true" />
+      <Method Name="Initializer" Hidden="true" />
+      <Field Name="instance" Hidden="true" />
+      <Field Name="m_init" Hidden="true" />
+      <Field Name="m_initContainerFuncs" Hidden="true" />
+      <Field Name="m_initExtraFuncs" Hidden="true" />
+      <Field Name="m_initGLSLFuncs" Hidden="true" />
+      <Field Name="m_initRegularFuncs" Hidden="true" />
+      <Field Name="m_share" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAIAAhAAAAAABAEQAEEAACAQAADAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Initializer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Group">
+    <Position X="23" Y="14" Width="1.75" />
+    <Members>
+      <Method Name="Draw" Hidden="true" />
+      <Field Name="m_objects" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAABAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Group.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shared&lt;T&gt;">
+    <Position X="20.25" Y="17.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Shared.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="World">
+    <Position X="25.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\World.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture">
+    <Position X="4" Y="9.5" Width="2.5" />
+    <Members>
+      <Field Name="m_dataFormat" Hidden="true" />
+      <Field Name="m_dataType" Hidden="true" />
+      <Field Name="m_type" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAAgAAABAAAIAAAAAAAADAQAAIEAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Texture.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture1D">
+    <Position X="2.5" Y="12.5" Width="2.5" />
+    <Members>
+      <Field Name="m_nWidth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Texture1D.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBO">
+    <Position X="7" Y="15.5" Width="2" />
+    <Members>
+      <Field Name="m_index" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAAAAAAAAAAAAAAAAAAAABAAAAAEAAAEAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\VBO.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FBO">
+    <Position X="16" Y="9.75" Width="3" />
+    <Members>
+      <Method Name="Draw" Hidden="true" />
+      <Field Name="m_nHeight" Hidden="true" />
+      <Field Name="m_nWidth" Hidden="true" />
+      <Field Name="m_tex" Hidden="true" />
+      <Field Name="m_uDepthId" Hidden="true" />
+      <Field Name="m_world" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAgAAAAAAACgAAAIAEAAAAAAAAAAAAQAIEEABQAAQ=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\FBO.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VAO">
+    <Position X="19.75" Y="9.75" Width="3" />
+    <Members>
+      <Method Name="Draw" Hidden="true" />
+      <Field Name="m_index" Hidden="true" />
+      <Field Name="m_nMode" Hidden="true" />
+      <Field Name="m_vbos" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAggAAkAAAAggAAAAAgAAAAAAAAJAAACAEAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\VAO.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program">
+    <Position X="12.75" Y="9.75" Width="2.5" />
+    <Members>
+      <Method Name="GetLocation" Hidden="true" />
+      <Field Name="m_bInUse" Hidden="true" />
+      <Field Name="m_bWarning" Hidden="true" />
+      <Field Name="m_fragment" Hidden="true" />
+      <Field Name="m_lModel" Hidden="true" />
+      <Field Name="m_lProjection" Hidden="true" />
+      <Field Name="m_lView" Hidden="true" />
+      <Field Name="m_uniforms" Hidden="true" />
+      <Field Name="m_uTextureIndex" Hidden="true" />
+      <Field Name="m_vertex" Hidden="true" />
+      <Method Name="Uniform" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAgQACAAAAAAACiAAAAAYAgAIAABAAAAAFABABAgA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Program.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader&lt;type&gt;">
+    <Position X="10.5" Y="9.75" Width="2" />
+    <Members>
+      <Method Name="Bind" Hidden="true" />
+      <Field Name="m_name" Hidden="true" />
+      <Field Name="m_type" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAAoAAAAAAAAAAAAAAAAAQAAAAAABAABAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Shader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buffer2D&lt;type&gt;">
+    <Position X="8" Y="12.5" Width="2.25" />
+    <Members>
+      <Field Name="m_uHeight" Hidden="true" />
+      <Field Name="m_uWidth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAEAEAAAAAAABAAQAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Buffer2D.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object">
+    <Position X="20.25" Y="14" Width="2" />
+    <Members>
+      <Method Name="Draw" Hidden="true" />
+      <Field Name="m_attributes" Hidden="true" />
+      <Field Name="m_bVisible" Hidden="true" />
+      <Field Name="m_model" Hidden="true" />
+      <Field Name="m_program" Hidden="true" />
+      <Field Name="m_uniforms" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAIAgAAAAAEAAIAAAAAAAAAABBAAAAQAgA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buffer&lt;type&gt;">
+    <Position X="8" Y="9.5" Width="2.25" />
+    <Members>
+      <Field Name="m_bufferType" Hidden="true" />
+      <Field Name="m_dataType" Hidden="true" />
+      <Field Name="m_uCount" Hidden="true" />
+      <Field Name="m_usage" Hidden="true" />
+      <Field Name="m_uSize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAgAAgIAQAAAQEAAAAADAAAQAEAAAQQAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Buffer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture2D">
+    <Position X="5.25" Y="12.5" Width="2.5" />
+    <Members>
+      <Field Name="m_nHeight" Hidden="true" />
+      <Field Name="m_nWidth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAABAAQAAAAAAAACA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Texture2D.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="detail::VirtualShared">
+    <Position X="20" Y="19" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Shared.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjMatrix">
+    <Position X="25.25" Y="12" Width="2.5" />
+    <Members>
+      <Field Name="m_current" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAECAAABAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\ProjMatrix.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Make&lt;Ret(Args...)&gt;" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Make.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Make&lt;Ret(Any&lt;N&gt;)&gt;" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Make.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLContainer">
+    <Position X="18.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLContainer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLSL">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLSL.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IBO">
+    <Position X="9.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\IBO.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLRegular">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLRegular.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLStandardObject">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLStandardObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLObject">
+    <Position X="23" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDObject" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAgAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\IDObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material">
+    <Position X="38.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAIgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Material.hpp</FileName>
+      <NewMemberFileName>H:\OneDrive - purdue.edu\include\gloop\Color.hpp</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLProgramAttribute&lt;PROGRAM_ATTRIBUTE_TYPE::STRUCT&gt;">
+    <Position X="37.5" Y="6.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLProgramAttribute.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Color">
+    <Position X="34" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Color.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLExtraObject">
+    <Position X="34.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLExtraObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLProgramAttribute&lt;type&gt;">
+    <Position X="33.75" Y="6.75" Width="3" />
+    <Members>
+      <Field Name="m_sName" Hidden="true" />
+      <Field Name="m_value" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAAAAAAAAAAAAAQAAAAAABQgAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\GLProgramAttribute.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Any&lt;&gt;" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Make.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="VertexShader" Collapsed="true">
+    <Position X="11" Y="12.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Shader.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GeometryShader" Collapsed="true">
+    <Position X="11" Y="13.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Shader.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FragShader" Collapsed="true">
+    <Position X="11" Y="14.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Shader.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="OBJECT_TYPE" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAQAQAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DATA_TYPE" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BUFFER_TYPE" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SHADER_TYPE" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TEXTURE_TYPE" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TEXTURE_FORMAT" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DRAW_MODE" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAIAAAAAAgAAAAAAAAQIAAgAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>H:\OneDrive - purdue.edu\include\gloop\Enum.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
